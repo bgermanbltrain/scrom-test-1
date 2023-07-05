@@ -1,0 +1,103 @@
+WEBVTT
+
+00:00:00.200 --> 00:00:04.147
+[VOICE OVER] The main types of cards are 
+Visa, Mastercard, American Express, 
+
+00:00:04.148 --> 00:00:04.956
+and Discover. 
+
+00:00:05.100 --> 00:00:08.874
+Beyond credit cards, there are numerous 
+card types that can be used in place of money. 
+
+00:00:09.103 --> 00:00:10.935
+Debit cards are the most known example. 
+
+00:00:11.187 --> 00:00:16.399
+Some lesser-known examples include gift cards, 
+prepaid cards, international cards, store cards, 
+
+00:00:16.400 --> 00:00:17.955
+and electronic benefit cards. 
+
+00:00:18.203 --> 00:00:22.670
+Please note: As you progress through the module, 
+anytime you see a reference to credit cards, 
+
+00:00:22.671 --> 00:00:26.000
+know that the information applies to any of 
+these payment card types.
+
+00:00:26.500 --> 00:00:31.991
+Even though there are many types of cards, they 
+all follow the same security rules. 
+
+00:00:31.992 --> 00:00:36.679
+These rules are defined by the Payment Card 
+Industry or (PCI) Security Standards Council. 
+
+00:00:36.916 --> 00:00:40.900
+This group is responsible for creating and 
+updating the many policies and rules that 
+
+00:00:40.901 --> 00:00:42.571
+govern the credit card industry. 
+
+00:00:42.600 --> 00:00:46.321
+The goal is to enhance global payment account 
+data security worldwide. 
+
+00:00:46.400 --> 00:00:51.337
+If your organization handles any of these card types, 
+then the payment card security rules will apply to you. 
+
+00:00:51.500 --> 00:00:54.274
+So what card information is important to protect? 
+
+00:00:54.400 --> 00:00:58.455
+The most sensitive credit card information,
+and thus the most valuable to the bad guys,
+
+00:00:58.456 --> 00:01:00.331
+is called “cardholder data”. 
+
+00:01:00.574 --> 00:01:01.450
+This includes:
+
+00:01:01.500 --> 00:01:04.551
+● The 16-digit “PAN,” or primary account number. 
+
+00:01:04.600 --> 00:01:06.636
+You typically call this your card number.
+
+00:01:06.888 --> 00:01:09.329
+● The three- or four-digit security code. 
+
+00:01:09.329 --> 00:01:13.671
+You have likely heard this code referred 
+to as the CVV – card verification value,
+
+00:01:13.672 --> 00:01:15.917
+ or CVC – card verification code. 
+
+00:01:16.175 --> 00:01:20.663
+For Visa, Mastercard, and Discover, it is the 
+three-digit code found on the back of the card. 
+
+00:01:20.900 --> 00:01:24.100
+For American Express, it is the four-digit code on 
+the front of the card.
+
+00:01:25.100 --> 00:01:25.943
+AND
+
+00:01:25.945 --> 00:01:31.891
+● The “PIN,” or personal identification number. 
+This is a secret numerical code known only by 
+
+00:01:31.892 --> 00:01:33.638
+the user and the security system. 
+
+00:01:33.700 --> 00:01:36.334
+It is required by some cards before they can be used.

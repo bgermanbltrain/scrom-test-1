@@ -1,0 +1,268 @@
+<?xml version="1.0" ?>
+<!-- 
+Manifest template to demonstrate the proper XML namespace declarations for
+SCORM 1.2 manifests. 
+
+Provided by Rustici Software - www.scorm.com.
+-->
+<manifest identifier="com.knowbe4.courses.btb.uuid.f0fb457d-e8c5-4a0a-901c-f181919fdeef" version="1"
+       xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+       xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:btb="http://knowbe4.com/xsd/btb"
+       xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                           http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                           http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd
+                           http://knowbe4.com/xsd/btb btb.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<btb:configuration>
+			<btb:builderInfo>
+				<btb:arch>amd64</btb:arch>
+				<btb:hash>be9cb106930e1d6c9e2fcf898edac3deba3b14e3</btb:hash>
+				<btb:version>4.2.0</btb:version>
+				<btb:tag>v4.2.0</btb:tag>
+				<btb:timestamp>2023-01-04T17:25:40Z</btb:timestamp>
+				<btb:platform>darwin</btb:platform>
+				<btb:goVersion>go1.19</btb:goVersion>
+			</btb:builderInfo>
+			<btb:courseInfo>
+				<btb:hash>095025e799d441f0db1f803816eda7ee63938b21</btb:hash>
+				<btb:localization>en-US</btb:localization>
+				<btb:version>1.0.15-en-US+095025e</btb:version>
+				<btb:tag>v1.0.15-en-US</btb:tag>
+				<btb:timestamp>2023-02-17T21:44:38Z</btb:timestamp>
+				<btb:nodeVersion>19.4.0</btb:nodeVersion>
+				<btb:yarnVersion>1.22.19</btb:yarnVersion>
+			</btb:courseInfo>
+			<btb:debug>false</btb:debug>
+			<btb:format>scorm-1.2</btb:format>
+			<btb:passingScore>0.8</btb:passingScore>
+			<btb:playerInfo>
+				<btb:hash>88021f8a672ac9a4adf067941f03a6c5c59e2acc</btb:hash>
+				<btb:version>4.2.0</btb:version>
+				<btb:tag>4.2.0</btb:tag>
+				<btb:timestamp>2022-12-07T21:46:42Z</btb:timestamp>
+			</btb:playerInfo>
+			<btb:scormless>false</btb:scormless>
+			<btb:skipMode>no-skip</btb:skipMode>
+			<btb:themeable>true</btb:themeable>
+			<btb:title>2020 Basics of Credit Card Security</btb:title>
+			<btb:pages>
+				<btb:page>
+					<btb:file>1000_best-practices-for-protecting-electronic-info.vue</btb:file>
+					<btb:title>Best Practices for Protecting Electronic Information</btb:title>
+					<btb:weight>1000</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>100_basics-of-credit-card-security.vue</btb:file>
+					<btb:title>Basics of Credit Card Security</btb:title>
+					<btb:weight>100</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1100_best-practices-when-transferring-data.vue</btb:file>
+					<btb:title>Best Practices When Transferring Data</btb:title>
+					<btb:weight>1100</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1200_best-practices-when-working-remotely.vue</btb:file>
+					<btb:title>Best Practices When Working Remotely</btb:title>
+					<btb:weight>1200</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1300_best-practices-when-using-mobile.vue</btb:file>
+					<btb:title>Best Practices When Using Mobile Devices</btb:title>
+					<btb:weight>1300</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1400_best-practices-exercise.vue</btb:file>
+					<btb:title>Best Practices Exercise</btb:title>
+					<btb:weight>1400</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1500_protecting-card-present-transactions.vue</btb:file>
+					<btb:title>Protecting Card Present Transactions</btb:title>
+					<btb:weight>1500</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1600_conclusion.vue</btb:file>
+					<btb:title>Conclusion</btb:title>
+					<btb:weight>1600</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1700_quiz.vue</btb:file>
+					<btb:title>Quiz</btb:title>
+					<btb:weight>1700</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>1800_congrats.vue</btb:file>
+					<btb:title>Congratulations</btb:title>
+					<btb:weight>1800</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>200_introduction.vue</btb:file>
+					<btb:title>Introduction</btb:title>
+					<btb:weight>200</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>300_credit-card-basics.vue</btb:file>
+					<btb:title>Credit Card Basics</btb:title>
+					<btb:weight>300</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>400_hackers-and-data-breaches.vue</btb:file>
+					<btb:title>Hackers and Data Breaches</btb:title>
+					<btb:weight>400</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>500_data-breach-exercise.vue</btb:file>
+					<btb:title>Data Breach Exercise</btb:title>
+					<btb:weight>500</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>600_types-of-hacker-attacks.vue</btb:file>
+					<btb:title>Types of Hacker Attacks</btb:title>
+					<btb:weight>600</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>700_protecting-credit-card-data.vue</btb:file>
+					<btb:title>Protecting Credit Card Data</btb:title>
+					<btb:weight>700</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>800_hacker-attack-exercise.vue</btb:file>
+					<btb:title>Hacker Attack Exercise</btb:title>
+					<btb:weight>800</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+				<btb:page>
+					<btb:file>900_best-practices-for-handling-paper-documents.vue</btb:file>
+					<btb:title>Best Practices for Handling Paper Documents</btb:title>
+					<btb:weight>900</btb:weight>
+					<btb:testoutstart>false</btb:testoutstart>
+				</btb:page>
+			</btb:pages>
+			<btb:customTerms>
+				<btb:customTerm>
+					<btb:baseTerm>employee</btb:baseTerm>
+					<btb:terms>
+						<btb:term>employee</btb:term>
+						<btb:term>associate</btb:term>
+						<btb:term>contractor</btb:term>
+						<btb:term>contributor</btb:term>
+						<btb:term>member</btb:term>
+						<btb:term>representative</btb:term>
+						<btb:term>teammate</btb:term>
+						<btb:term>team member</btb:term>
+					</btb:terms>
+				</btb:customTerm>
+				<btb:customTerm>
+					<btb:baseTerm>employees</btb:baseTerm>
+					<btb:terms>
+						<btb:term>employees</btb:term>
+						<btb:term>associates</btb:term>
+						<btb:term>contractors</btb:term>
+						<btb:term>contributors</btb:term>
+						<btb:term>members</btb:term>
+						<btb:term>representatives</btb:term>
+						<btb:term>teammates</btb:term>
+						<btb:term>team members</btb:term>
+					</btb:terms>
+				</btb:customTerm>
+				<btb:customTerm>
+					<btb:baseTerm>it team</btb:baseTerm>
+					<btb:terms>
+						<btb:term>*IT* team</btb:term>
+						<btb:term>security team</btb:term>
+						<btb:term>security operations center</btb:term>
+						<btb:term>help desk</btb:term>
+						<btb:term>support team</btb:term>
+					</btb:terms>
+				</btb:customTerm>
+				<btb:customTerm>
+					<btb:baseTerm>organization</btb:baseTerm>
+					<btb:terms>
+						<btb:term>corporation</btb:term>
+						<btb:term>company</btb:term>
+						<btb:term>firm</btb:term>
+						<btb:term>hospital</btb:term>
+						<btb:term>organization</btb:term>
+					</btb:terms>
+				</btb:customTerm>
+				<btb:customTerm>
+					<btb:baseTerm>policies</btb:baseTerm>
+					<btb:terms>
+						<btb:term>policies</btb:term>
+						<btb:term>procedures</btb:term>
+						<btb:term>guidelines</btb:term>
+					</btb:terms>
+				</btb:customTerm>
+				<btb:customTerm>
+					<btb:baseTerm>policy</btb:baseTerm>
+					<btb:terms>
+						<btb:term>policy</btb:term>
+						<btb:term>procedure</btb:term>
+						<btb:term>guideline</btb:term>
+					</btb:terms>
+				</btb:customTerm>
+				<btb:settings>
+					<btb:term>employee</btb:term>
+					<btb:defaultOption>associate</btb:defaultOption> 
+				</btb:settings>
+				<btb:settings>
+					<btb:term>employees</btb:term>
+					<btb:defaultOption>associates</btb:defaultOption> 
+				</btb:settings>
+				<btb:settings>
+					<btb:term>it team</btb:term>
+					<btb:defaultOption>*IT* team</btb:defaultOption> 
+				</btb:settings>
+				<btb:settings>
+					<btb:term>organization</btb:term>
+					<btb:defaultOption>corporation</btb:defaultOption> 
+				</btb:settings>
+				<btb:settings>
+					<btb:term>policies</btb:term>
+					<btb:defaultOption>policies</btb:defaultOption> 
+				</btb:settings>
+				<btb:settings>
+					<btb:term>policy</btb:term>
+					<btb:defaultOption>procedure</btb:defaultOption> 
+				</btb:settings>
+			</btb:customTerms>
+      <btb:activatedFeatures>
+      </btb:activatedFeatures>
+		</btb:configuration>
+	</metadata>
+	<organizations default="com.knowbe4.courses.btb.uuid.15f7843e-e1ae-4a6a-bd38-a5b97f388682">
+		<organization identifier="com.knowbe4.courses.btb.uuid.15f7843e-e1ae-4a6a-bd38-a5b97f388682">
+			<title>2020 Basics of Credit Card Security</title>
+			<item identifier="i1" identifierref="r1" isvisible="true">
+				<title>2020 Basics of Credit Card Security</title>
+				<adlcp:masteryscore>0</adlcp:masteryscore>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="index.html">
+			<file href="index.html" />
+		</resource>
+	</resources>
+</manifest>
